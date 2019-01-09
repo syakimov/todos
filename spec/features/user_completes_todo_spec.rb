@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-feature 'User creates todo' do
+feature 'User completes todo' do
   scenario 'successfully' do
     sign_in
 
