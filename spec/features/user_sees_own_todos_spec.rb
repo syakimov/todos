@@ -6,7 +6,7 @@ feature 'User sess own todos' do
 
     sign_in_as 'me@example.com'
 
-    expect(page).not_to have_css '.todos li', text: 'Todo Title'
+    expect(page).not_to display_todo('Todo Title')
   end
 end
 
